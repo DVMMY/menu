@@ -1,0 +1,65 @@
+/*custom font for text*/
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	font-family: Nunito, arial, verdana;
+}
+
+#menu {
+	background: #333333;
+	width: 250px;
+	margin: 100px auto 0 auto;
+	color: white;
+	box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+
+#menu h3 {
+	font-size: 12px;
+	line-height: 34px;
+	padding: 0 10px;
+	cursor: pointer;
+	background: #454545;
+	background: linear-gradient(#454545, #202020);
+}
+
+#menu h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+
+#menu h3 span {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#menu li {
+	list-style-type: none;
+}
+
+#menu ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 27px;
+	display: block;
+	padding: 0 15px;
+	transition: all 0.15s;
+}
+
+#menu ul ul li a:hover {
+	background: #000;
+	border-left: 5px solid #FFBF00;
+}
+
+#menu ul ul {
+	display: none;
+}
+
+#menu li.active ul {
+	display: block;
+}

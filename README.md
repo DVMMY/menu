@@ -1,3 +1,3 @@
 # menu
 
-Live Preview: http://dvmmy.github.io/pricing-table/
+Live Preview: http://dvmmy.github.io/menu/
